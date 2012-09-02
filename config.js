@@ -1,6 +1,6 @@
 exports.dev = {
-    port: 3000,
-    client_port: 3000,
+    port: process.env.PORT || 5000,
+    client_port: 80,
     mongoose_auth: 'mongodb://subway:subway@alex.mongohq.com:10002/Subway'
 }
 
