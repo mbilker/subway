@@ -11,7 +11,7 @@
     "subway": "./subway"
   },
   "engines": {
-    "node": ">=0.4"
+    "node": "0.8.6"
   },
   "env": {
     "PYTHON": "/opt/local/bin/python2.7"
